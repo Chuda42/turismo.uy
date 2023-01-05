@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>turismo.uy</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <!-- si el codigo de error es 500 redirige ahi -->
+  <error-page>
+    <error-code>500</error-code>
+    <location>/WEB-INF/errorPages/404.jsp</location>
+</error-page> 
+  
+  <!-- para cualquier otro codigo redirige a 404 -->
+    <error-page>
+  	<location>/WEB-INF/errorPages/404.jsp</location>
+  </error-page>
+</web-app> 

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="text" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <title>Turismo.uy</title>
+
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/altaUsuario.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
+        <div class="container justify-content-center justify-content-lg-between"> 
+            <a class="navbar-brand d-flex ml-3" href="../homeVisitante.html">
+                <h4 class="mb-2 mb-lg-0 white">TURISMO.UY</h4>
+            </a>
+
+            <div class="bg-light rounded rounded-pill shadow-sm mb-1 mb-lg-0">
+                <div class="input-group">
+                    <input type="search" placeholder="Tours" aria-describedby="button-addon1"
+                        class="form-control border-0 bg-light">
+                    <div class="input-group-append">
+                        <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar4" style="flex-grow:0;">
+                <ul class="navbar-nav mr-0 mt-3 mt-lg-0">
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="./inicioSesion.html"> 
+                            Iniciar Sesión
+                            <i class="fa fa-sign-in"></i>
+                        </a> 
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-0 mt-3 mt-lg-0">
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="./altaUsuario.html"> 
+                            Registrarse
+                            <i class="fa fa-user-plus"></i>
+                        </a> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row mt-5 mt-lg-0" style="padding-top: 10%; max-width: 1600px; padding-left: 5%; padding-right: 5%;">
+        <div class="col-sm-3 mt-5 mt-lg-0">
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start card-container">
+                <div class="card-header ">USUARIOS</div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <a href="./consultaUsuario.html" class="list-group-item list-group-item-action">Consulta Usuarios</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start" style="max-width: 18rem; ">
+                <div class="card-header">DEPARTAMENTOS</div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Colonia</a>
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Maldonado</a>
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Montevideo</a>
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Rocha</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start" style="max-width: 18rem; ">
+                <div class="card-header">CATEGORIAS</div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Aventura y Deporte</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Campo y Naturaleza</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Cultura y Patrimonio</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Gastronomia</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Turismo y Playas</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- contenido individual -->
+        <div class="col-sm-6 text-center">
+          <div class="card mb-3 formularioRegistro shadow">
+            <div class="card-body">
+              <h5 class="card-title">Registrarse</h5>
+              <form action="./inicioSesion.html" id="FormularioRegistro">
+                  <div class="mb-4 text-start" id="NicknameRegistroDiv">
+                      <label for="Nickname" class = "form-label" id="NicknameRegistroLabel">Nickname</label>
+                      <input type="text" name="Nickname" id="NicknameRegistroText" placeholder="Ingrese un nickname" class ="form-control" aria-describedby="NicknameRegistroTextNullValidate" required>
+                      <div id="NicknameRegistroTextNullValidate" class="invalid-feedback">
+                          El campo Nickname es obligatorio.
+                      </div>
+                  </div>
+                  
+                  <div class="mb-4 text-start" id="NombreRegistroDiv">
+                      <label for="Nombre" class = "form-label">Nombre</label>
+                      <input type="text" name="Nombre" id="NombreRegistroText" placeholder="Ingrese su Nombre" class ="form-control" aria-describedby="NombreRegistroTextNullValidate" required>
+                      <div id="NombreRegistroTextNullValidate" class="invalid-feedback">
+                          El campo Nombre es obligatorio.
+                      </div>
+                  </div>
+                  
+                  <div class="mb-4 text-start" id="ApellidoRegistroDiv">
+                      <label for="Apellido" class ="form-label">Apellido</label>
+                      <input type="text" name = "Apellido" id="ApellidoRegistroText" placeholder="Ingrese su Apellido" class ="form-control" aria-describedby="ApellidoRegistroTextNullValidate" required>
+                      <div id="ApellidoRegistroTextNullValidate" class="invalid-feedback">
+                          El campo Apellido es obligatorio.
+                      </div>
+                  </div>
+            
+                  <div class="mb-4 text-start" id="EmailRegistroDiv">
+                      <label for="Email" class ="form-label">Email</label>
+                      <input type="email" name="Email" id="EmailRegistroText" placeholder="Ingrese un email" class ="form-control" aria-describedby="EmailRegistroTextNullValidate" required>
+                      <div id="EmailRegistroTextNullValidate" class="invalid-feedback">
+                          El campo Email es obligatorio.
+                      </div>
+                  </div>
+            
+                  <div class="row g-3 align-items-center" id="FechaNacimientoRegistroDiv">
+                      <div class="col-auto">
+                          <label for="FechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+                      </div>
+                      <div class="col-auto">
+                          <input type="date" name="FechaNacimiento" id="FechaNacimientoRegistroText" class ="form-control" aria-describedby="FechaNacimientoRegistroTextNullValidate" required>    
+                      </div>
+                      <div class="col-auto">
+                          <span id="FechaNacimientoRegistroTextNullValidate" class="FechaNacimientoSpanValidate">
+                              Es un campo obligatorio
+                          </span>
+                      </div>
+                      
+                  </div>
+                  
+                  <div class="mb-4 text-start" id="ContraseniaRegistroDiv">
+                      <label for="Contrasenia" class="form-label">Contraseña</label>
+                      <input type="password" name="Contrasenia" id="ContraseniaRegistroText" placeholder="Ingresar una contraseña" class ="form-control" aria-describedby="ContraseniaRegistroTextNullValidate">
+                      <div id="ContraseniaRegistroTextNullValidate" class="invalid-feedback">
+                          El campo Contrasenia es obligatorio.
+                      </div>
+                  </div>
+            
+                  <div class="mb-4 text-start" id="ConfirmarContraseniaRegistroDiv">
+                      <label for="ConfirmarContrasenia" class="form-label">Confirmar contraseña</label>
+                      <input type="password" name="ConfirmarContrasenia" id="ConfirmarContraseniaRegistroText" placeholder="Ingresar contraseña" class="form-control" aria-describedby="ConfirmarCrontraseniaValidate" required>
+                      <div id="ConfirmarCrontraseniaValidate" class="invalid-feedback">
+                          Las contraseñas no coinciden
+                      </div>
+                  </div>
+                  
+                  <div class="row g-3 align-items-center">
+                      <div class="col-auto">
+                          <label for="FotoPerfil" class ="form-label">Subir foto de perfil</label>
+                      </div>
+                      <div class="col-auto">
+                          <input type="file" class="form-control">
+                      </div>
+                      
+                  </div>
+            
+                  <div class="row g-3 mb-4 align-items-center mt-3">
+                      <div class="col-auto">
+                          <label for="TipoUsuario" class ="form-label">Registrarse como</label>
+                      </div>
+                      <div class="col-auto">
+                          <select name="TipoUsuario" id="TipoUsuarioRegistroOption" class="form-control" defaultOptions="Seleccionar" aria-describedby="TipoUsuarioNullValidate">
+                              <option value="Seleccionar"></option>
+                              <option value="Turista">Turista</option>
+                              <option value="Proveedor">Proveedor</option>
+                          </select> 
+                          <div id="TipoUsuarioNullValidate" class="invalid-feedback">
+                              Debe seleccionar el tipo de usuario que se va a registrar.
+                          </div>
+                      </div>  
+                  </div>
+            
+                  <div class="mb-4 text-start" id="NacionalidadRegistroDiv">
+                      <label for="Nacionalidad" class ="form-label">Nacionalidad</label>
+                      <input type="text" name="Nacionalidad" placeholder="Ingrese su nacionalidad"
+                      class ="form-control" id="NacionalidadRegistroText" aria-describedby="NacionalidadTextNullValidate">
+                      <div id="NacionalidadNullValidate" class="invalid-feedback">
+                          La nacionalidad es un campo obligatorio.
+                      </div>
+                  </div>
+                  
+                  <div class="mb-4 text-start"  id="DescripcionRegistroDiv">
+                      <label for="Descripcion" class ="form-label">Descripción general</label>
+                      <textarea class="form-control" placeholder="Escribir una descripción" id="DescripcionRegistroText" style="height: 100px" aria-describedby="DescripcionTextNullValidate"></textarea>
+                      <div id="DescripcionNullValidate" class="invalid-feedback">
+                          La descripción es un campo obligatorio.
+                      </div>
+            
+                  </div>
+            
+                  <div class="mb-4 text-start"  id="SitioWebRegistroDiv">
+                      <label for="LinkSitioWeb" class ="form-label">Link de su sitio web</label>
+                      <input type="url" name="LinkSitioWeb" id="LinkSitioWeb" placeholder="Ingrese el link de su sitio web" class="form-control">
+                  </div>
+                  
+                  <div class="mb-3">
+                      <button type="submit" class="btn btn-primary" id="btnRgistrarse">Registrarse</button>
+                  </div>
+            
+              </form>
+            </div>
+          </div>
+          
+        </div>
+        <!-- contenido individual -->
+
+    </div>
+
+    <div class="footer row">
+        <div class="row container m-0 p-0 ps-5 footerEstatico fixed-bottom">
+            <p class="col text-end my-auto copyright-color">© All rights reserved to Turismo.uy 2022 </p>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../js/altaUsuario.js"></script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

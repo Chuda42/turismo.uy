@@ -1,0 +1,7 @@
+.formularioRegistro{
+    background-color: white;
+}
+.FechaNacimientoSpanValidate{
+    color: red;
+    display: none;
+}
