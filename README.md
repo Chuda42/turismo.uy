@@ -1,7 +1,7 @@
 # turismo.uy
 Proyecto de la materia taller de programación, Fing UdelaR.
 
-##Versiones de las tecnologias
+## Versiones de las tecnologias
 
 ```
 OpenJdk 11
