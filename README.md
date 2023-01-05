@@ -11,6 +11,7 @@ Apache Maven 3.8.7
 ```
 
 ## Run
+0. Tener instaladas las versiones de las tecnologias antes mencionadas, y agregadas a las variables de entorno y al path.
 
 1. Modificar .properties (servidor y web), configurar las variables según se donde se ejecuta y guardarlos en /home/.turismoUy/. En la variable file_path inidicar la carpeta donde se guardan las imagenes estas se pueden encontrar en turismo.uy/src/main/webapp/media/imagenes/.
 
