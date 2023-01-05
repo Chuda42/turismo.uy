@@ -2,9 +2,12 @@
 Proyecto de la materia taller de programación, Fing UdelaR.
 
 ##Versiones de las tecnologias
----
-OpenJdk 11.0.15
----
+```
+OpenJdk 11
+```
+```
+Apache Maven 3.8.7 
+```
 
 ## Run
 
