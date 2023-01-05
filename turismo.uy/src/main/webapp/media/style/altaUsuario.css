@@ -1,0 +1,25 @@
+.formularioRegistro{
+    background-color: white;
+}
+.FechaNacimientoSpanValidate{
+    color: red;
+    display: none;
+}
+
+#failAltaUsuario{
+	color: red;
+}
+
+
+#DivAjaxUsuarioYaExiste i{
+	color: #e8be17;
+}
+
+#DivAjaxUsuarioYaExisteEmail i{
+	color: #e8be17;
+}
+
+.iframeAct{
+	width: 100%;
+	height: 500px;
+}

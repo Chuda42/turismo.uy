@@ -1,0 +1,185 @@
+.body{
+background-color: #9fc6c9;
+}
+.copyright-color {
+  color: white;
+}
+
+.primary-color {
+  background-color: rgba(83, 181, 206, 0.2);
+  color: #ffff;
+}
+
+.card-container {
+  max-width: 18rem; 
+  margin-bottom: 2%;
+}
+
+.container-principal {
+  padding-top: 10%;
+  max-width: 1600px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.bg-blue {
+
+background: rgb(185,232,249);
+background: linear-gradient(315deg, rgba(185,232,249,0.7413340336134453) 0%, rgba(185,232,249,0.7637429971988796) 9%, rgba(185,232,249,0.788953081232493) 78%);
+
+  color: #ffff;
+}
+.usr-pic {
+  height: 35px; 
+  width: 40px;
+}
+
+.white {
+  color: white;
+}
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.nav-link-usr {
+  color: rgb(64, 64, 64);
+}
+
+.navbar {
+
+  color: #ffff;
+}
+.card-header{
+  background-color: rgba(83, 181, 206, 0.2);
+}
+.footer {
+  height: 50px;
+  bottom: 0;
+  padding-top: 20px;
+  justify-content: space-around;
+}
+
+.footerEstatico{
+  background-color: #53b5ce;
+}
+
+.footerEstatico a {
+  color: white;
+}
+
+.links span {
+  letter-spacing: 0.2px;
+  font-size: 12px;
+  color: #e7e7e7;
+  height: 12px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 2%;
+}
+
+.social-Media {
+  margin-right: 2%;
+  margin-left: auto;
+}
+
+.links {
+  display: block !important;
+  position: relative;
+  margin-left: 2%;
+}
+
+.links a {
+  text-decoration: none;
+  color: #ffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links a:hover {
+  color: rgb(254, 253, 254);
+}
+
+.hover {
+  transition: transform ease-in-out 0.3s;
+}
+
+.hover:hover {
+  transform: scale(1.03);
+}
+
+.card-color {
+  background-color: rgba(83, 181, 206, 0.5);
+}
+
+.card-backgroundImg {
+  overflow: hidden; border: white;
+}
+
+
+.turismo{
+	display:none
+}
+.container{
+	width:80%;
+}
+
+@media(min-width:700px){
+	.container{
+	width:100%
+	}
+	.turismo{
+	display:flex;
+	}
+}
+
+.collapse-nav{
+	display:flex;
+	flex-direction:column;
+	
+}
+.collapse-nav > a{
+	text-decoration:none;
+}
+.landing{
+	background: url(../imagenes/landing.jpeg);
+	height:500px;
+	width:100%
+}
+img 
+{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width:100%;
+  height:40vh;
+}
+.fade 
+{
+  -webkit-animation-name: fade-image;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade-image;
+  animation-duration: 2.5s;
+}
+  
+@-webkit-keyframes fade-image
+{
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+  
+@keyframes fade-image
+{
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+
+
+.hero-title{
+  font-size: 1.4rem;
+  font-family: 'Playfair Display', serif;
+  color: black;
+  text-align:center;
+}
+.back{
+	color:#a9aaab;
+}
+
+
+

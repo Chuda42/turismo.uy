@@ -1,0 +1,32 @@
+# Mac
+.DS_Store
+
+# folders
+bin/
+.metadata/ 
+build/
+.vscode/
+/turismo.uy/src/main/java/webservices/
+/turismo.uy/src/main/java/net/
+/servidor-movil/src/main/java/net/
+/servidor-movil/src/main/java/webservices/
+
+# files
+/servidor-central/.classpath
+/turismo.uy/.classpath
+/servidor-movil/.classpath
+.pmd
+.checkstyle
+.vscode
+/servidor-central/dependency-reduced-pom.xml
+
+# extensions
+*.class
+*.jar
+*.zip
+
+# Maven
+log/
+target/ 
+
+# https://stackoverflow.com/questions/26160644/indecision-on-which-files-to-upload-on-github

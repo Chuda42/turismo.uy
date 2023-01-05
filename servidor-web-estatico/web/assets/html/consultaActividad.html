@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <title>Turismo.uy</title>
+
+    <link rel="stylesheet" href="../style/index.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
+        <div class="container justify-content-center justify-content-lg-between"> 
+            <a class="navbar-brand d-flex ml-3" href="#">
+                <h4 class="mb-2 mb-lg-0 white">TURISMO.UY</h4>
+            </a>
+
+            <div class="bg-light rounded rounded-pill shadow-sm mb-1 mb-lg-0">
+                <div class="input-group">
+                    <input type="search" placeholder="Tours" aria-describedby="button-addon1"
+                        class="form-control border-0 bg-light">
+                    <div class="input-group-append">
+                        <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0">
+                <ul class="navbar-nav mr-0 mt-3 mt-lg-0">
+                    <li class="nav-item"> 
+                        <a class="white text-decoration-none" href="miPerfilTurista.html">
+                            <img class="me-2 rounded-circle usr-pic" src="../img/lachiqui.jpg">
+                            Rosa María Martínez
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row mt-5 mt-lg-0 container-principal">
+        <div class="col-sm-3 mt-5 mt-lg-0">
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start card-container">
+                <div class="card-header ">Mi perfil <i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <a href="./inscripcionSalida.html" class="list-group-item list-group-item-action">Inscripción a Salida</a>
+                        <a href="./compraPaquete.html" class="list-group-item list-group-item-action">Compra de Paquete</a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start card-container">
+                <div class="card-header ">USUARIOS</div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <a href="./consultaUsuario.html" class="list-group-item list-group-item-action">Consulta Usuarios</a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start card-container">
+                <div class="card-header ">DEPARTAMENTOS</div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Colonia</a>
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Maldonado</a>
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Montevideo</a>
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Rocha</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start card-container">
+                <div class="card-header ">CATEGORIAS</div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Aventura y Deporte</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Campo y Naturaleza</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Cultura y Patrimonio</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Gastronomia</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Turismo y Playas</a>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- contenido individual -->
+		<div class="col-sm-6 text-center">
+			<div class="card mb-3" style="max-width: 800px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="../img/act-degusta.jpg" class="img-fluid rounded-start" alt="...">
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Degusta</h5>
+							<p class="card-text">Festival gastronómico de productos locales en Rocha.</p>
+							<p class="card-text"><small class="text-muted">Fecha de alta: 20/7/2022</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="card mb-3" style="max-width: 800px;">
+				<div class="card-body">
+				
+					<form>
+		                    
+		            	<fieldset disabled>
+		                	<div class="row g-3 align-items-center pt-3">
+		                    	<div class="col-auto">
+		                        	<i class="fa fa-clock-o prefix white-text"></i>
+		                        	<label for="inputPassword6" class="col-form-label disabled'">Duración:</label>
+		                        </div>
+		                        <div class="col-auto">
+		                        	<input type="password" id="inputPassword6" class="form-control disabled" aria-describedby="disabled" placeholder="3">
+		                    	</div>
+		                    </div>
+						</fieldset>
+						
+		                <fieldset disabled>
+							<div class="row g-3 align-items-center pt-3">
+								<div class="col-auto">
+									<i class="fa fa-money prefix white-text"></i>
+									<label for="inputPassword6" class="col-form-label">Costo:</label>
+								</div>
+								<div class="col-auto">
+									<input type="password" id="inputPassword6" class="form-control disabled" aria-describedby="disabled" placeholder="$800">
+								</div>
+							
+							</div>
+						</fieldset>
+						
+						<fieldset disabled>
+							<div class="row g-3 align-items-center pt-3">
+								<div class="col-auto">
+									<i class="fa fa-building prefix white-text"></i>
+									<label for="inputPassword6" class="col-form-label">Ciudad:</label>
+								</div>
+								<div class="col-auto">
+									<input type="password" id="inputPassword6" class="form-control disabled" aria-describedby="disabled" placeholder="Rocha">
+								</div>
+							              
+							</div>
+						</fieldset>
+		                
+						<fieldset disabled>
+							<div class="row g-3 align-items-center pt-3">
+								<div class="col-auto">
+									<i class="fa fa-tags prefix white-text"></i>
+									<label for="inputPassword6" class="col-form-label disabled'">Categorias:</label>
+								</div>
+								<div class="col-auto">
+									<a href="listarPaquetesPorCategoria.html" class="badge bg-secondary">Gastronomia</a>
+								</div>
+							</div>
+						</fieldset>
+				
+		  			</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-3">
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start" style="max-width: 18rem; ">
+                <div class="card-header fw-semibold">SALIDAS DE ACTIVIDAD</div>
+                <div class="card-body p-0">
+                    <ul class="list-group list-group-flush">
+                        <div class="list-group-item p-1">
+                            <a class="text-decoration-none" href="consultaSalida.html">
+                                <div class="row g-0 align-middle">
+                                    <div class="col-md-4">
+                                        <img src="../img/sal-degusta-agosto.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8 pt-2 pt-lg-0 ps-lg-2 align-self-center">
+                                        <ul class="list-group list-group-flush">
+                                            <p class="list-group-item list-group-item-action">Degusta Agosto</p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="list-group-item p-1">
+                            <a class="text-decoration-none" href="consultaSalida.html">
+                                <div class="row g-0 align-middle">
+                                    <div class="col-md-4">
+                                        <img src="../img/sal-degusta-septiembre.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8 pt-2 pt-lg-0 ps-lg-2 align-self-center">
+                                        <ul class="list-group list-group-flush">
+                                            <p class="list-group-item list-group-item-action">Degusta Septiembre</p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start" style="max-width: 18rem; ">
+                <div class="card-header fw-semibold">PAQUETES ASOCIADOS</div>
+                <div class="card-body p-0">
+                    <ul class="list-group list-group-flush">
+                        <div class="list-group-item p-1">
+                            <a class="text-decoration-none" href="consultaPaquete.html">
+                                <div class="row g-0 align-middle">
+                                    <div class="col-md-4">
+                                        <img src="../img/paq-disfrutarrocha.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8 pt-2 pt-lg-0 ps-lg-2 align-self-center">
+                                        <ul class="list-group list-group-flush">
+                                            <p class="list-group-item list-group-item-action">Disfrutar Rocha</p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- contenido individual -->
+
+    </div>
+
+    <div class="footer row">
+        <div class="row container m-0 p-0 ps-5 footerEstatico fixed-bottom">
+            <p class="col float-start my-2">
+                <a href="../homeVisitante.html" class="text-decoration-none">
+                    <i class="fa fa-sign-out"></i>
+                    Cerrar Sesion
+                </a>
+            </p>
+            <p class="col text-end my-auto copyright-color">© All rights reserved to Turismo.uy 2022 </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

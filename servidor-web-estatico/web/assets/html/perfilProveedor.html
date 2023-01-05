@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <title>Turismo.uy</title>
+
+    <link rel="stylesheet" href="../style/index.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
+        <div class="container justify-content-center justify-content-lg-between">
+            <a class="navbar-brand d-flex ml-3" href="#">
+                <h4 class="mb-2 mb-lg-0 white">TURISMO.UY</h4>
+            </a>
+
+            <div class="bg-light rounded rounded-pill shadow-sm mb-1 mb-lg-0">
+                <div class="input-group">
+                    <input type="search" placeholder="Tours" aria-describedby="button-addon1"
+                        class="form-control border-0 bg-light">
+                    <div class="input-group-append">
+                        <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar4" style="flex-grow:0;">
+                <ul class="navbar-nav mr-0 mt-3 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="miPerfilTurista.html">
+                            <img class="me-2 rounded-circle usr-pic" src="../img/washington.jpg">
+                            Washington Rocha
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row mt-5 mt-lg-0 container-principal">
+        <div class="col-sm-3 mt-5 mt-lg-0">
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start card-container">
+                <div class="card-header fw-semibold">Mi perfil <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <a href="altaActividad.html" class="card-title list-group-item list-group-item-action">Alta de
+                            Actividad</a>
+                        <a href="altaSalida.html" class="card-title list-group-item list-group-item-action">Alta de
+                            Salida</a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start card-container">
+                <div class="card-header fw-semibold">DEPARTAMENTOS</div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Colonia</a>
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Maldonado</a>
+                        <a href="./listarActividadesPorDepto.html" class="list-group-item list-group-item-action">Montevideo</a>
+                        <a href="./listarActividadesPorDepto.html"
+                            class="list-group-item list-group-item-action">Rocha</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card border-light mb-5 mx-auto text-center text-lg-start card-container">
+                <div class="card-header fw-semibold">CATEGORIAS</div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Aventura y Deporte</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Campo y Naturaleza</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Cultura y Patrimonio</a>
+                        <a href="./listarPaquetesPorCategoria.html"
+                            class="list-group-item list-group-item-action">Gastronomia</a>
+                        <a href="./listarPaquetesPorCategoria.html" class="list-group-item list-group-item-action">Turismo y Playas</a>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Contenido individual -->
+        <div class="col-sm" style="margin-right: 12%;">
+            <div class="card mb-3" style="max-width: 800px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/washington.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">washington</h5>
+                            <p class="card-text">washington@turismorocha.gub.uy</p>
+                            <p class="card-text"><small class="text-muted">Ultimo ingreso: 01/09/2022 14:26</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container " style="width: 650px; padding-bottom: 20%;">
+                <div class="row">
+                    <div class="">
+                        <div class="card">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs" id="bologna-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link  active" style="color: black;" href="#perfil" role="tab"
+                                            aria-controls="description" aria-selected="true">Perfil</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-link-usr " href="#actividades" role="tab"
+                                            aria-controls="history" aria-selected="false">Actividades ofrecidas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-link-usr" href="#salidas" role="tab"
+                                            aria-controls="history" aria-selected="false">Salidas</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <!-- <h4 class="card-title">Bologna</h4>
+              <h6 class="card-subtitle mb-2">Emilia-Romagna Region, Italy</h6> -->
+
+                                <div class="tab-content mt-3">
+                                    <div class="tab-pane active" id="perfil" role="tabpanel">
+                                        <div class="card-body">
+                                            <form>
+                                                <h4 class=" font-up font-bold py-2 white-text">Datos del usuario</h4>
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-auto">
+                                                            <i class="fa fa-user prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label disabled'">Nickname:</label>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <input type="" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="washington">
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-2">
+                                                            <i class="fa fa-user prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label disabled">Nombre:</label>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <input type="" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="Washington">
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-2">
+                                                            <i class="fa fa-user prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label">Apellido:</label>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <input type="" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="Rocha">
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+
+
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-2">
+                                                            <i class="fa fa-envelope prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label disabled'">Email:</label>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <input type="" class="form-control disabled"
+                                                                aria-describedby="disabled"
+                                                                placeholder="washington@turismorocha.gub.uy">
+                                                        </div>
+                                                        <div class="col-auto">
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-auto">
+                                                            <i class="fa fa-birthday-cake prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label disabled'">Fecha de Nacimiento:
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <input type="date" class="form-control disabled"
+                                                                aria-describedby="disabled" value="1970-09-14">
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+
+
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                    <!--/////////////////////////////////////////////////////////-->
+                                    <div class="tab-pane" id="actividades" role="tabpanel"
+                                        aria-labelledby="history-tab">
+                                        <div class="card-body">
+                                            <a style="text-decoration:none; font-size: 24px;"
+                                                href="./consultaSalida.html" class="font-up font-bold">Datos Degusta</a>
+                                            <form>
+
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-auto">
+                                                            <i class="fa fa-clock-o prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label disabled'">Duracion:</label>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <input type="" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="3">
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-auto">
+                                                            <i class="fa fa-money prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label">Costo:</label>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <input type="password" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="$800">
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-auto">
+                                                            <i class="fa fa-building prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label">Ciudad:</label>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <input type="password" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="Rocha">
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-auto">
+                                                            <i class="fa fa-calendar prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label disabled'">Fecha Alta:
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <input type="" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="20/07/2022">
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+
+
+                                            </form>
+
+                                            <!--.............................-->
+                                            <form style="margin-top: 20px;">
+                                                <a style="text-decoration:none; font-size: 24px;margin-top: 3%;"
+                                                    href="./consultaSalida.html" class="font-up font-bold ">Teatro con
+                                                    Sabores</a>
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-auto">
+                                                            <i class="fa fa-clock-o prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label disabled'">Duracion:</label>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <input type="" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="3">
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-auto">
+                                                            <i class="fa fa-money prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label">Costo:</label>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <input type="password" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="$500">
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-auto">
+                                                            <i class="fa fa-building prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label">Ciudad:</label>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <input type="password" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="Rocha">
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+
+                                                <fieldset disabled>
+                                                    <div class="row g-3 align-items-center pt-3">
+                                                        <div class="col-auto">
+                                                            <i class="fa fa-calendar prefix white-text"></i>
+                                                            <label for="inputPassword6"
+                                                                class="col-form-label disabled'">Fecha Alta:
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <input type="" class="form-control disabled"
+                                                                aria-describedby="disabled" placeholder="21/07/2022">
+                                                        </div>
+
+                                                    </div>
+                                                </fieldset>
+
+
+
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                    <!--//////////////////////SALIDAS ACT 1///////////////////////////-->
+                                    <div class="tab-pane" id="salidas" role="tabpanel" aria-labelledby="history-tab">
+                                        <div class="card-body">
+                                            <h4 class=" font-up font-bold white-text">Salidas Degusta </h4>
+
+                                            <fieldset disabled>
+                                                <div class="row g-3 align-items-center pt-3">
+                                                    <div class="col-auto">
+
+                                                        <label for="inputPassword6"
+                                                            class="col-form-label disabled'">Salida:</label>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <a style="text-decoration:none"
+                                                            href="./consultaSalida.html">Degusta Agosto</a>
+
+                                                    </div>
+
+                                                </div>
+                                            </fieldset>
+                                            <fieldset disabled>
+                                                <div class="row g-3 align-items-center pt-3">
+                                                    <div class="col-auto">
+                                                        <i class="fa fa-clock-o prefix white-text"></i>
+                                                        <label for="inputPassword6"
+                                                            class="col-form-label disabled'">Hora:</label>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <input type="" class="form-control disabled"
+                                                            aria-describedby="disabled" placeholder="17hs">
+                                                    </div>
+
+                                                </div>
+                                            </fieldset>
+
+                                            <fieldset disabled>
+                                                <div class="row g-3 align-items-center pt-3">
+                                                    <div class="col-auto">
+                                                        <i class="fa fa-calendar prefix white-text"></i>
+                                                        <label for="inputPassword6"
+                                                            class="col-form-label disabled'">Fecha :
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <input type="" class="form-control disabled"
+                                                            aria-describedby="disabled" placeholder="20/08/2022">
+                                                    </div>
+
+                                                </div>
+                                            </fieldset>
+
+                                            <fieldset disabled>
+                                                <div class="row g-3 align-items-center pt-3">
+                                                    <div class="col-auto">
+                                                        <i class="fa fa-calendar prefix white-text"></i>
+                                                        <label for="inputPassword6"
+                                                            class="col-form-label disabled'">Fecha Alta:
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <input type="" class="form-control disabled"
+                                                            aria-describedby="disabled" placeholder="21/07/2022">
+                                                    </div>
+
+                                                </div>
+                                            </fieldset>
+
+                                            <fieldset disabled>
+                                                <div class="row g-3 align-items-center pt-3">
+                                                    <div class="col-auto">
+
+                                                        <label for="inputPassword6"
+                                                            class="col-form-label disabled'">Salida:</label>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <a style="text-decoration:none"
+                                                            href="./consultaSalida.html">Degusta Setiembre</a>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </fieldset>
+                                            <fieldset disabled>
+                                                <div class="row g-3 align-items-center pt-3">
+                                                    <div class="col-auto">
+                                                        <i class="fa fa-clock-o prefix white-text"></i>
+                                                        <label for="inputPassword6"
+                                                            class="col-form-label disabled'">Hora:</label>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <input type="" class="form-control disabled"
+                                                            aria-describedby="disabled" placeholder="17hs">
+                                                    </div>
+
+                                                </div>
+                                            </fieldset>
+
+                                            <fieldset disabled>
+                                                <div class="row g-3 align-items-center pt-3">
+                                                    <div class="col-auto">
+                                                        <i class="fa fa-calendar prefix white-text"></i>
+                                                        <label for="inputPassword6"
+                                                            class="col-form-label disabled'">Fecha :
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <input type="" class="form-control disabled"
+                                                            aria-describedby="disabled" placeholder="3/09/2022">
+                                                    </div>
+
+                                                </div>
+                                            </fieldset>
+
+                                            <fieldset disabled>
+                                                <div class="row g-3 align-items-center pt-3">
+                                                    <div class="col-auto">
+                                                        <i class="fa fa-calendar prefix white-text"></i>
+                                                        <label for="inputPassword6"
+                                                            class="col-form-label disabled'">Fecha Alta:
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <input type="" class="form-control disabled"
+                                                            aria-describedby="disabled" placeholder="22/07/2022">
+                                                    </div>
+
+                                                </div>
+                                            </fieldset>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    </div>
+
+    <div class="footer row">
+        <div class="row container m-0 p-0 ps-5 footerEstatico fixed-bottom">
+            <p class="col float-start my-2">
+                <a href="../homeVisitante.html" class="text-decoration-none">
+                    <i class="fa fa-sign-out"></i>
+                    Cerrar Sesión
+                </a>
+            </p>
+            <p class="col text-end my-auto copyright-color">© All rights reserved to
+                Turismo.uy
+                2022 </p>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="../js/PerfilUsuario.js"></script>
+</body>
+
+</html>
