@@ -1,6 +1,11 @@
 # turismo.uy
 Proyecto de la materia taller de programación, Fing UdelaR.
 
+##Versiones de las tecnologias
+---
+OpenJdk 11.0.15
+---
+
 ## Run
 
 1. Modificar .properties (servidor y web), configurar las variables según se donde se ejecuta y guardarlos en /home/.turismoUy/. En la variable file_path inidicar la carpeta donde se guardan las imagenes estas se pueden encontrar en turismo.uy/src/main/webapp/media/imagenes/.
